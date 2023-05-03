@@ -21,8 +21,6 @@ import lombok.Getter;
 @Getter
 public class Travel {
 	@Id
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "travels_sequence_generator")
-//	@SequenceGenerator(name = "travels_sequence_generator", sequenceName = "travels_id_seq", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	

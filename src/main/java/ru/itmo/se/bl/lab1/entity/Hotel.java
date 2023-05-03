@@ -21,8 +21,6 @@ import lombok.Setter;
 @Data
 public class Hotel {
 	@Id
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "hotels_sequence_generator")
-//	@SequenceGenerator(name = "hotels_sequence_generator", sequenceName = "hotels_id_seq", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	

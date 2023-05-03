@@ -22,8 +22,6 @@ import lombok.NoArgsConstructor;
 @Getter
 public class TouristInfo {
 	@Id
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "tourist_info_sequence_generator")
-//	@SequenceGenerator(name = "tourist_info_sequence_generator", sequenceName = "tourist_info_id_seq", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	

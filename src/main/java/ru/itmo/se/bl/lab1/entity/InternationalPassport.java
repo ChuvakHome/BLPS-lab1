@@ -19,8 +19,6 @@ import lombok.Getter;
 @Getter
 public class InternationalPassport {
 	@Id
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "international_passport_sequence_generator")
-//	@SequenceGenerator(name = "international_passport_sequence_generator", sequenceName = "international_passport_id_seq", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	

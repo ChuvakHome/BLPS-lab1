@@ -15,8 +15,6 @@ import lombok.Setter;
 @Data
 public class Country {
 	@Id
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "countries_sequence_generator")
-//	@SequenceGenerator(name = "countries_sequence_generator", sequenceName = "counties_id_seq", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
